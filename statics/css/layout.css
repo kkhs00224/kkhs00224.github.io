@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header > div {
+    /*display: flex;*/
+    margin: 0 auto;
+    max-width: 1500px;
+
+}
+header #logo {
+    margin: 0 50px;
+    padding: 20px 0 10px 10px;
+    border-bottom: solid 2px cornflowerblue;
+}
+header #logo > a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: cornflowerblue;
+    font-family: "Agency FB", serif;
+}
+header #logo > span {
+    font-size: 14px;
+}
+header > div > ul {
+    margin: 10px;
+}
+header > div > ul > li {
+    display: inline;
+}
+header > div > ul > li > a {
+    padding: 10px;
+    text-decoration: none;
+    color: #333333;
+}
+header > div > ul > li > a:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+section {
+    margin: 0 50px;
+}
+section .board {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+section .card{
+    border: 2px dashed #aaaaaa;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+}
+
+.border-bottom {
+    border-bottom: 2px solid #aaaaaa;
+}
